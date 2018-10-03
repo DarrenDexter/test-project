@@ -1,0 +1,21 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened>
+    <ul class="side-list">
+      <li>
+        <a routerLinkActive='active' [routerLink]="['/home']">
+          <mat-icon>home</mat-icon>
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a routerLinkActive='active' [routerLink]="['/matexamples']">
+          <mat-icon>folder</mat-icon>
+          <span>Material Examples</span>
+        </a>
+      </li>
+    </ul>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <ng-content></ng-content>
+  </mat-sidenav-content>
+</mat-sidenav-container>

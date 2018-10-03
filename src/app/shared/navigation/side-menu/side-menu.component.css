@@ -1,0 +1,26 @@
+mat-sidenav-container {
+    position: fixed;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    min-width: 100%;
+}
+mat-sidenav-content {
+    padding: 10px;
+    margin: 10px;
+}
+.side-list {
+    list-style: none;
+}
+.side-list > li {
+    top: 10px;
+}
+.side-list > li > a > span {
+    position: relative;
+    top: -5px;
+    margin-left: 5px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
