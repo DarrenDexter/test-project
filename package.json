@@ -2,7 +2,7 @@
   "name": "test-project",
   "version": "0.0.0",
   "engines": {  
-    "node": "0.6.20"  
+    "node": "10.6.0"  
 },  
   "scripts": {
     "ng": "ng",
