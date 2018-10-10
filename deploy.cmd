@@ -103,7 +103,7 @@ echo running build.
 :: 3. Install npm packages
 IF EXIST "%DEPLOYMENT_SOURCE%\.angular-cli.json" (
   pushd "%DEPLOYMENT_SOURCE%"
-  call :ExecuteCmd !NPM_CMD! run build
+  call :ExecuteCmd !NPM_CMD! build
   IF !ERRORLEVEL! NEQ 0 goto error
   popd
 )
