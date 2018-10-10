@@ -108,6 +108,8 @@ IF EXIST "%DEPLOYMENT_SOURCE%\.angular-cli.json" (
   popd
 )
 
+echo finish build.
+
 :: 3. Install npm packages
 ::IF EXIST "%DEPLOYMENT_TARGET%\package.json" (
 ::  pushd "%DEPLOYMENT_TARGET%"
